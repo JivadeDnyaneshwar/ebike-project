@@ -1,0 +1,145 @@
+@media screen and (max-width:768px) {
+
+.EcoHome{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    
+}
+.EcoNanu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.EcoNanu img{
+    width: 300px;
+    height: 300px;
+}
+.aprice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    /* background-color: brown; */
+}
+.Book{
+  width: 100%;
+}
+.GlobBook{
+    /* width: 100%; */
+}
+.name2{
+    width: 300px;
+    /* background-color: aqua; */
+}
+.afterprice{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BookNow{
+    width: 100%;
+}
+.BookNow1{
+    width: 150px;
+}
+.lowspeed{
+     width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     /* background-color: aqua  */
+}
+.maina{
+    width:400px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dishome{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Gen-Next{
+    padding-top: 100px;
+}
+.beast{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.bike-gallery{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom:50px ;
+}
+.main-title{
+    /* width: 400px;
+    height: 400px; */
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* top: 120px; */
+    /* padding: 10px; */
+    /* background-color: rgb(203, 132, 39); */
+  
+}
+.bike-card1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    
+}
+.bike-card1 img{
+    width: 300px;
+    /* height: 400px; */
+    position: relative;
+    /* background-color: aqua; */
+    right: -700px;
+}
+
+.bike-card img {
+width: 300px;
+/* background-color: aqua; */
+left: -700px;
+position: relative; 
+  
+
+}
+
+.Globdis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+}

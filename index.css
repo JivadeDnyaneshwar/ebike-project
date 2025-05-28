@@ -1,0 +1,593 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Sora, sans-serif;
+}
+.ebike{
+    background-color: black;
+    width: 100%;
+    height: 1200PX;
+     display: flex;
+     justify-content: space-around; 
+      align-items: center;
+      flex-direction: column; 
+    
+}
+
+
+.aprice {
+    color: whitesmoke;
+}
+.bprice{
+    color: whitesmoke;
+}
+.afterprice{
+    color: whitesmoke;
+}
+.beforprice{
+    color: whitesmoke;
+}
+.joye{ 
+      /* background-color:salmon ;  */
+    width: 100%;
+    height:550px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
+}
+    
+
+.joye img{
+    width: 65%;
+    
+} 
+.joyechild{
+    /* background-color: red; */
+    width: 40%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+     gap: 30px;
+    font-size: 20px;
+    flex-direction: column; 
+}
+
+.highway { 
+   
+     width: 100%; 
+    height: 540px;
+    display: flex;
+    justify-content:end ;
+     background-image:url(https://www.joyebike.com/home/assets/img/road.png);
+} 
+
+.bikeimg{ 
+     /* background-color: paleturquoise; */
+     width:45%;
+    height: 500px;
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+   
+}
+.bikeimg img{ 
+    /* background-color: salmon; */
+     /* width: 40%; */
+    height: 800px;
+    position: relative;
+    left: 190px;
+    bottom: -150px;
+} 
+
+ 
+ .joye h1 {
+      width: 100% ;
+      height: 150px;
+      /* background-color: tomato; */
+      
+      position: relative;
+      animation: moveUp 1s ease-out;
+    }
+    .joye p {
+      width: 100% ;
+      height: 150px;
+      /* background-color: tomato; */
+      
+      position: relative;
+      animation: moveUp 1.5s ease-out;
+    }
+       
+
+    @keyframes moveUp {
+      from {
+        transform: translateY(100px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+}
+}
+
+.main-our-fleet-of{
+    height:fit-content;
+    width: 100%;
+    padding-top: 20px;
+    background-color:rgb(137, 151, 147);
+
+}
+
+.our-fleet-text{
+    height: 100px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.our-fleet-text p{
+    font-size: 30px;
+    color: #212529;
+    position: absolute;
+    top: 0px;
+}
+
+.our-fleet-text h1{
+    font-size: 55px;
+    color: #080808;
+    position: absolute;
+    animation:  top 0.5s linear;
+}
+@keyframes top{
+   from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity:1;
+}
+}
+
+.bike-contenner{
+    height: fit-content;
+    width: 100%;
+    /* background-color: rgb(137, 150, 146); */
+}
+
+.bike-types{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bike-types-box{
+    height: fit-content;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     line-height: 50px;
+    /* background-color: red; */
+    
+}
+
+.bike-types-box-up{
+    height: fit-content;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 50px;
+    /* background-color: red; */
+    
+}
+.bike-types-box-up img{
+    height:70%;
+    width: 62%;
+    /* position: absolute; */
+    animation: user2 2s linear;
+
+}
+.bike-types-box img{
+     /* height:70%; */
+    width: 85%;
+}
+
+@keyframes user2{
+    0%{
+      transform: scale(0,0);
+
+  }
+  100%{
+    transform: scale(1,1);
+}
+}
+.Showroom-price-up{
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.offer-price-up{
+     font-size: 28px;
+     color: #ffffff;
+}
+
+.Showroom-price{
+     font-size: 28px;
+    color: #ffffff;
+}
+
+.offer-price{
+     font-size: 28px;
+     color: #ffffff;
+}
+
+.bike-button-up{
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+    /* background-color: aqua; */
+}
+
+.bike-button{
+      height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: 18px;
+   border:none;
+}
+
+
+.EcoHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    /* padding: 50px 0px 50px 0px; */
+    background-color: #59ab97 ;
+    background-color: #232831 ;
+    background-color: #8f9f9b;
+
+}
+
+.Ecodis{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   position: relative;
+}
+.Ecodis p{
+  position:absolute;
+  top: -40px;
+   letter-spacing: 5px;
+}
+.Ecodis h1{
+   /* background-color: aqua; */
+    position: absolute;
+animation:  top 0.5s linear ;
+}
+@keyframes top{
+   from {
+        transform: translateY(-60px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity:1;
+      }
+}
+.EcoNanu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.EcoImg{
+    width: 42%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+.EcoImg img{
+    height: 500px;
+}
+.NanuImg{
+    width: 42%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: beige; */
+
+}
+.NanuImg img{
+    height: 500Px;
+}
+.Book{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.BookNow{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.lowspeed{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+   
+    overflow: hidden;
+    /* background-color:red ; */
+}
+.dishome{
+    width: 90%;
+    height: fit-content;
+    /* padding-top: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+   /* background-color: aliceblue; */
+}
+.lowspeeddis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -80px;
+}
+.lowspeeddis p{
+    letter-spacing: 5px;
+}
+.lowspeeddis h1{
+/* animation: TopLow 1s linear; */
+}
+@keyframes TopLow{
+   from {
+        /* transform: translateY(-60px); */
+        opacity: 0;
+      }
+      to {
+        /* transform: translateY(0); */
+        opacity:1;
+      }
+}
+.WolfDis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+       line-height: 40px;
+    /* background-color: aqua; */
+
+}
+.WolfDis img{
+    height: 320px;
+     /* animation: card1 1s linear; */
+}
+.WolDisBook{
+     width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #59ab97;
+}
+.Gen-Next {
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+       line-height: 40px;
+       position: relative;
+       top: -50px;
+    /* background-color: aqua; */
+}
+.Gen-Next img{
+    height: 420px;
+    /* animation: user2 2s linear; */
+}
+@keyframes user2{
+    0%{
+      transform: scale(0,0);
+   opacity: 0;
+  }
+  100%{
+    transform: scale(1,1);
+    
+}
+}
+.BookNow1{
+      width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #59ab97; 
+}
+.Globdis{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+       line-height: 40px;
+    /* background-color: rgb(97, 107, 107); */
+  
+
+}
+.Globdis img{
+    height: 320px;
+    /* animation: card 1s linear; */
+}
+.GlobBook{
+     width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    border: none; 
+    background-color: #59ab97;
+}
+.Globdis p{
+ 
+}
+@keyframes card1{
+   
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
+
+
+@keyframes card{
+   
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0%);
+}
+}
+
+
+
+
+.beast {
+  
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ flex-direction: column;
+  height: fit-content;
+ overflow: hidden;
+ padding-top: 50px;
+ position: relative;
+z-index:4 ;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading .subtitle {
+ letter-spacing: 5px;
+}
+
+.heading .main-title {
+  /* font-size: 60px; */
+}
+
+.bike-gallery {
+    /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+  gap: 20px;
+   
+}
+
+.bike-card {
+  /* background: white; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+  width: 500px;
+  /* background-color: blue; */
+ 
+ 
+}
+.bike-card1 {
+  /* background: white; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+  width: 500px;
+  /* background-color: blue; */
+ 
+ 
+}
+/* @keyframes card1{
+   
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    } */
+
+.bike-card1 img {
+  
+ 
+  width:500px;
+ /* background-color: brown; */
+ 
+ 
+}
+
+.bike-card img {
+  width:500px;
+ 
+}
+/* @keyframes card{
+   
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0%);
+}
+/* } */
+/* .heading h1{
+animation: Low 1s linear;
+}
+@keyframes Low{
+   from {
+        transform: translateY(-60px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity:1;
+      }
+}  */
